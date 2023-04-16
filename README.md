@@ -36,17 +36,15 @@ $c \in \{3,6,10\}$ where c is the carry capacity of each drone
 
 $r \in [1, \infty]$ where $r$ is the amount of restarts the hill-climbing algorithm goes through
 
-#### Example Execution
+### Example Execution
 
 ```
-make run i=1 k=2 c=3 r=20
+make run i=3 k=2 c=3 r=20
 ```
 
-Running _MVDRP.cpp_ generates an _output.txt_ file and a _path.txt_ file. 
+Running the above command generates an _output.txt_ file showing the simulation's results, a _path.txt_ file utilized for visualization, and a Visualized_Path.png presenting the path taken by the truck and all drones.
 
-### Solution Visualization
-
-To visualize the obtained solution, simply run __Path_Visualizer.py_. This will read the _path.txt_ file and plot the route taken by the truck and drones on a two-dimensional plane.
+### Usage Notes
 
 The MVDRP_Instances folder must be in the same folder as the compiled program.
 

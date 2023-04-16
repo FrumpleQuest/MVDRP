@@ -65,4 +65,5 @@ while(i<len(drone_routes_x)):
     drone_legends.append('Drone ' + str(i))
     i += 1
 plt.legend(['V Nodes','Start Node','C Nodes'] + drone_legends) 
+plt.savefig("Visualized_Path.png")
 plt.show()
