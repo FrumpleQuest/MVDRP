@@ -1,0 +1,13 @@
+|V|=2 |C|=1
+Truck speed 
+1 
+Drone speed 
+1
+Location of Depot 
+14.259005003294941 20.152563564168062
+launch/retrieval locations (V), in format (x,y) 
+1 1
+1 3
+2 2
+customer locations (C) and packages mass, in format (x,y,mass)
+4 2 1
