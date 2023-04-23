@@ -26,7 +26,7 @@ To run the program, use:
 make run i=I k=K c=C r=R
 ```
 
-where the I, K, C and R are integers and are within the following ranges:
+where I, K, C and R are integers and are within the following ranges:
 
 $i \in [1,100]$ where $i$ is the instance number (There are 100 pre-built instances in the MVDRP_Instances folder)
 
@@ -48,6 +48,6 @@ Running the above command generates an _output.txt_ file showing the simulation'
 
 The MVDRP_Instances folder must be in the same folder as the compiled program.
 
-This project was developed on Linux, using WSL on a Windows 10 system.
+This project was developed on Linux, using WSL on Windows 10.
 
 Tomas Barros, student at UTSFM, Chile
